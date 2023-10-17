@@ -1,2 +1,2 @@
 # Data Structures and Algorithms
-Created while practicing **Data Sturctures & Algorithms**
+Created this repository while practicing **Data Sturctures & Algorithms**
