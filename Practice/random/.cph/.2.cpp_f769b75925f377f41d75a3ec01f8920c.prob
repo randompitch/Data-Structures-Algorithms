@@ -1,0 +1,1 @@
+{"name":"Local: 2","url":"c:\\Users\\megha\\Desktop\\Data-Structures-Algorithms\\Practice\\random\\2.cpp","tests":[{"id":1703764114526,"input":"5\n3 10 8 6 11\n4\n1\n10\n3\n11\n","output":"0\n4\n1\n5\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\megha\\Desktop\\Data-Structures-Algorithms\\Practice\\random\\2.cpp","group":"local","local":true}
