@@ -21,9 +21,7 @@ void merge(int array[], int l, int m, int r){
         else{
             array[i] = right[r_i++];
         }
-
     }
-
 }
 
 void mergeSort(int array[], int l, int r){
