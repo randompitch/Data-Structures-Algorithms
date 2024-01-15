@@ -1,3 +1,5 @@
 print(4%3)
 print(4//3)
 print(82^47^59)
+print(-28*-28)
+print(5/2 + 1)
