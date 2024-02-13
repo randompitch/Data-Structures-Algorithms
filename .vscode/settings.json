@@ -8,6 +8,9 @@
         "unordered_map": "cpp",
         "string": "cpp",
         "iosfwd": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "xstring": "cpp"
     }
 }
