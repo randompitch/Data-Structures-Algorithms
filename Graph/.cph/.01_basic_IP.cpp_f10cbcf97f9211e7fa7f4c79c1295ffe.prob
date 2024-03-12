@@ -1,0 +1,1 @@
+{"name":"Local: 01_basic_IP","url":"c:\\Users\\megha\\Desktop\\Data-Structures-Algorithms\\Graph\\01_basic_IP.cpp","tests":[{"id":1709124073283,"input":"5 6\n2 1\n1 3 \n2 4\n3 4 \n2 5 \n3 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\megha\\Desktop\\Data-Structures-Algorithms\\Graph\\01_basic_IP.cpp","group":"local","local":true}
