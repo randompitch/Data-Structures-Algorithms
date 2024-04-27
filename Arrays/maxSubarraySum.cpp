@@ -28,11 +28,17 @@ int main()
         }
         int ans = INT_MIN;
         int sum = 0;
-        for(auto &i: v){
-            sum += i;
-
+        int start = -1;
+        int astart = -1, aend = -1;
+        for(int i=0; i<n; i++){
+            if (sum == 0){
+                start = i;
+            }
+            sum += v[i];
             if(sum > ans){
                 ans = sum;
+                astart = start;
+                aend = i;
             }
 
             if(sum < 0){
@@ -40,6 +46,11 @@ int main()
             }
         }
         cout << ans << "\n";
+        cout << "Maximum Subarray = [";
+        for(int i=astart; i<=aend; i++){
+            cout << v[i] << " ";
+        }
+        cout << "]\n";
     }
     return 0;
 }
