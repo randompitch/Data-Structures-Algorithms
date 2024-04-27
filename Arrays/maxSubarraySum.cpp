@@ -27,11 +27,16 @@ int main()
             cin >> v[i];
         }
         int ans = INT_MIN;
-        for(int i=0;i<n;i++){
-            int sum = v[i];
-            for(int j=i+1; j<n; j++){
-                sum += v[j];
-                ans = max(ans,sum);
+        int sum = 0;
+        for(auto &i: v){
+            sum += i;
+
+            if(sum > ans){
+                ans = sum;
+            }
+
+            if(sum < 0){
+                sum = 0;
             }
         }
         cout << ans << "\n";
