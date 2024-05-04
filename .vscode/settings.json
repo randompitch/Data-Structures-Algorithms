@@ -12,6 +12,8 @@
         "deque": "cpp",
         "list": "cpp",
         "xstring": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "xlocale": "cpp",
+        "xlocnum": "cpp"
     }
 }
